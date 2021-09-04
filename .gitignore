@@ -1,0 +1,189 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,visualstudiocode
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode
+# https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode tarafından oluşturuldu # https://www.toptal.com/developers/gitignore?templates=python,windows,visualstudiocode adresinde düzenleyin ### Python ### # Bayt-derlenmiş / optimize edilmiş / DLL dosyaları __pycache__/ *.py[kod] *$py.sınıf # C uzantıları *.yani # Dağıtım / paketleme .Python inşa etmek/ yumurta geliştirmek/ uzak/ İndirilenler/ yumurtalar/ .yumurtalar/ lib/ lib64/ parçalar/ sdist/ var/ tekerlekler/ paylaş/python-tekerlekler/ *.yumurta bilgisi/ .kurulu.cfg *.Yumurta BELİRGİN # PyYükleyici # Genellikle bu dosyalar bir şablondan bir python betiği tarafından yazılır # PyInstaller, içine tarih/diğer bilgileri enjekte etmek için exe'yi oluşturmadan önce. *.belirgin *.spec # Yükleyici günlükleri pip-log.txt pip-delete-this-directory.txt # Birim testi / kapsam raporları htmlcov/ .toksik/ .nox/ .kapsama .kapsama.* .cache burun testleri.xml kapsama.xml *.örtmek *.py,kapak .hipotez/ .pytest_cache/ örtmek/ # Çeviriler *.mo *.tencere # Django malzemeleri: *.log local_settings.py db.sqlite3 db.sqlite3-dergi # Şişe malzemesi: örnek/ .webassets-önbellek # Hurda şeyler: .scrapy # Sfenks belgeleri dokümanlar/_build/ # PyBuilder .pybuilder/ hedef/ # Jüpiter Not Defteri .ipynb_checkpoints # IPython profile_default/ ipython_config.py # pyenv # Bir kitaplık veya paket için, kod # birden çok ortamda çalışması amaçlandı; aksi takdirde, bunları kontrol edin: # .python sürümü # borunv # pypa/pipenv#598'e göre sürüm kontrolüne Pipfile.lock eklenmesi önerilir. # Ancak işbirliği durumunda, platforma özgü bağımlılıklar veya bağımlılıklar varsa # platformlar arası desteği olmayan pipenv, çalışmayan veya çalışmayan bağımlılıkları yükleyebilir # gerekli tüm bağımlılıkları kurun. #Pipfile.lock # PEP 582; tarafından kullanılan örn. github.com/David-OConnor/pyflow __pypackages__/ # Kereviz şeyler kereviz programı celerybeat.pid # SageMath ayrıştırılmış dosyalar *.sage.py # Ortamlar .env .venv ortam/ venv/ ENV/ env.bak/ venv.bak/ # Spyder proje ayarları .spyderproject .spyproject # Halat proje ayarları .ropeproject # mkdocs belgeleri /site # mypy .mypy_cache/ .dmypy.json dmypy.json # Ateş türü denetleyicisi .ateş/ # pytype statik tip analizörü .pytype/ # Cython hata ayıklama sembolleri cython_debug/ ### VisualStudioCode ### .vscode/* !.vscode/settings.json !.vscode/tasks.json !.vscode/launch.json !.vscode/extensions.json *.code-çalışma alanı # Visual Studio Kodu için Yerel Geçmiş .Tarih/ ### VisualStudioCode Yaması ### # Dosyaların tüm yerel geçmişini yoksay .Tarih .iyonid ### Pencereler ### # Windows küçük resim önbellek dosyaları Thumbs.db Thumbs.db:şifrelenebilir ehthumbs.db ehthumbs_vista.db # Döküm dosyası *. yığın dökümü # Klasör yapılandırma dosyası [Dd]esktop.ini # Dosya paylaşımlarında kullanılan Geri Dönüşüm Kutusu $GERİ DÖNÜŞÜM.BIN/ # Windows Installer dosyaları *.taksi *.msi *.msix *.msm *.msp # Windows kısayolları *.lnk # https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode'un sonu
+translated from: English
