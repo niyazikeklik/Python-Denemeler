@@ -1,0 +1,22 @@
+[{
+        "ObjectName": "AnaForm",
+        "PropertyName": {
+            "ObjectName": "textBox1",
+            "PropertyName": "Text"
+        }
+    },
+    {
+        "ObjectName": "AnaForm",
+        "PropertyName": "Name"
+    },
+    {
+        "ObjectName": "AnaForm",
+        "PropertyName": {
+            "ObjectName": "panel1",
+            "PropertyName": [{
+                "ObjectName": "textBox1",
+                "PropertyName": "Text"
+            }]
+        }
+    }
+]
